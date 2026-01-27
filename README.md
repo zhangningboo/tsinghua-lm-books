@@ -3,8 +3,11 @@
 $ curl -LsSf https://astral.sh/uv/install.sh | sh
 $ uv venv --python 3.12 --seed
 $ source .venv/bin/activate
-$ pip install notebook
-$ pip install jupyter_contrib_nbextensions
-$ pip install jupyter_nbextensions_configurator
-$ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+$ uv pip install notebook
+$ uv pip install jupyter_contrib_nbextensions
+$ uv pip install jupyter_nbextensions_configurator
+$ uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+$ uv pip install transformers
+$ uv pip install modelscope
+$ uv pip install scikit-learn
 ```
