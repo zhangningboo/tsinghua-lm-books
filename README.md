@@ -10,4 +10,5 @@ $ uv pip install torch torchvision --index-url https://download.pytorch.org/whl/
 $ uv pip install transformers
 $ uv pip install modelscope
 $ uv pip install scikit-learn
+$ uv pip install matplotlib
 ```
