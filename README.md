@@ -1,9 +1,10 @@
 ### 环境搭建
 ```shell
-$ mamba create -n tsinghua-lm-books python=3.12
-$ mamba activate tsinghua-lm-books
+$ curl -LsSf https://astral.sh/uv/install.sh | sh
+$ uv venv --python 3.12 --seed
+$ source .venv/bin/activate
 $ pip install notebook
 $ pip install jupyter_contrib_nbextensions
 $ pip install jupyter_nbextensions_configurator
-$ pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+$ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
 ```
