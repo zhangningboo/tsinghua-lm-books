@@ -12,4 +12,5 @@ $ uv pip install modelscope
 $ uv pip install scikit-learn
 $ uv pip install matplotlib
 $ uv pip install seaborn
+$ uv pip install zhon
 ```
