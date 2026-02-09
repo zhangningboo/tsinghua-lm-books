@@ -3,3 +3,4 @@
 **/bert-base-uncased/**
 **/CIFAR-10/**
 **/__pycache__/**
+.env
